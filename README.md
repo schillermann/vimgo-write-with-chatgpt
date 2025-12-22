@@ -97,3 +97,11 @@ As a solution, I received approximately 15 lines of code in which he created a f
 This seemed too bloated to me, as it would have been much simpler to use two `if` statements to increment the cursor, and the cursor wouldn't have needed to be reset.
 I gave him a second chance. The second time, he figured out how to add an `if` statement around each cursor increment.
 So it's still important to understand the code changes and above all to have your own solution ready, at least a rough one, which you can compare with the suggested solution, because otherwise, the maintainability of the code is quickly compromised.
+
+## Planning
+
+When I'm working on major changes with Codex, I sometimes have to interrupt my work mid-process, and the terminal closes with Codex.
+The next time I open Codex, I'm missing the history of what I've done previously, so I don't know what to do next.
+I found it much more practical to plan exactly what needs to be done with Codex and then save it in a `todo.md` file with checkboxes.
+Every time an item on the list is completed, Codex checks it off.
+This way, I know what still needs to be done, and Codex doesn't have to search through all the files every time to figure out what the next step could be.
